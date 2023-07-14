@@ -17,9 +17,9 @@ class Game:
         pyxel.circb(60, 60, r, 7)
 
 
-def time_to_radius(frame:int, cycle:int, radius:int) -> int:
-    t = 2.0 * math.pi * float(frame) / float(cycle)
-    r_half = float(radius) / 2.0
+def time_to_radius(frame:int, cycle:float, radius:float) -> float:
+    t = 2 * math.pi * frame / cycle
+    r_half = radius / 2
     return round(r_half * math.sin(t) + r_half)
 
 
