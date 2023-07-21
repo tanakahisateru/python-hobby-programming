@@ -5,7 +5,7 @@ import tkinter
 from tkinter import ttk
 
 
-def make_frame(root:tkinter.Tk, on_quit: Callable[[], Any]):
+def make_frame(root:tkinter.Tk, on_quit: Callable[[], Any]) -> None:
     """
     Tkのフレームをつくります
     """
