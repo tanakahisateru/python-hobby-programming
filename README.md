@@ -14,7 +14,7 @@ poetry run uvicorn hello.api:app
 Then open another shell.
 
 ```sh
-poetry run python run main.py
+poetry run python main.py
 ```
 
 Click **Boot** button in Tk window to start Pyxel game.
@@ -22,7 +22,7 @@ Click **Boot** button in Tk window to start Pyxel game.
 Or start the game directry.
 
 ```sh
-poetry run pyxel hello/game.py
+poetry run pyxel run hello/game.py
 ```
 
 Hit SPACE to send an HTTP message to FastAPI server.
