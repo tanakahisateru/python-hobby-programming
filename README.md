@@ -14,7 +14,7 @@ poetry run uvicorn hello.api:app
 Then open another shell.
 
 ```sh
-poetry run python main.py
+poetry run python run main.py
 ```
 
 Click **Boot** button in Tk window to start Pyxel game.
